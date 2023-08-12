@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="raj.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/rajkumar.rajbhar.568089" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/rajkumar.rajbhar.568089/" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/RajbharRaj53787" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/rajkumar-rajbhar-66ba93256/" target="_blank">
+             <i data-feather="linkedin"></i>
+              
+            
+          </a>
+           <a href=" https://github.com/rajkumar912639"><img src="g2.png" alt="  "  style="width:30px;height:30px;"></a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h1>Rajkumar rajbhar (23)</h2>
+            <h2>Full Stack Web Developer</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+             Logical and organized individual with a 
+strong foundation in Software Quality 
+Analyst. Proficient in Bootstrap, HTML, 
+CSS C++ and JavaScript. Ability to test 
+web application for error detection and 
+correction. Good team member with 
+decent communication skills. Looking 
+to start a career as an entry-level 
+professional with a reputed IT 
+company.
+            </p>
+           
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY PROJECT DETAILS</h3>
+              <div class="">
+                <h4>HOTEL MANAGMENT SYSTEM</h4>
+                <p>APRIL 2023 </p>
+                <li>Domain: Operating System| Programming Languages: Java</li>
+                <ul>Built a Hotel Management System Using HTML, CSS, JavaScript.</ul>
+                <ul>Upgraded code to make the services error-free.</ul>
+                <ul>Created a website for user interaction using NetBeans and server.</ul>
+
+                <h4>BOOK MANAGMENT SYSTEM</h4>
+                <p>SEPTEMBER 2022 </p>
+                <li>Programming Languages: C++</li>
+                <ul>Built a Book Management System Using C++</ul>
+                <ul>Built a Book Management System Using C++</ul>
+                
+              </div>
+              
+                <h4>CERTIFICATONS</h4>
+                
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Python Programming for Everybody |Coursera|Jun '23 <a href="</li>
+                  <li>Learn HTML, CSS, Bootstrap, 
+jQuery |Udemy | Feb ‘23</li>
+                  <li>Learn C++ ProgrammingUdemy | Nov '22</li>
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>MASTER OF COMPUTER APPLICATION ,LOVLY PROFESIONAL UNIVERSITY ,Phagwara, India</h4>
+                <p>july 2022 -Prsent</p>
+                <h4>Beachlor of Computer Application, Dibrugarh University, India</h4>
+                <p>july 2015 - July 2019 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I have excelent communication skill and confidence in front of an audience</li>
+                <li>I have a talent for investigating and researching different processes to offer different improvements and solution for the benefit of the organization </li>
+                <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have a good Understanding of C,C++,jAVA</li>
+                  <li>I have also good knoledge about html,CSS,Javsscript,React</li>
+                  <li>I am comfortable to use the windows,linux,macos Platform</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love mountain hiking and cycling in my free time</li>
+                  <li>I like to play board games with other people</li>
+                </ul>
+            </div>
+
+           
+           
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Rajkumar Rajbhar</p>
+              <p>Adress: Vill+Post Asnwar chogra,Ballia, 221701, Uttar Pardesh, India</p>
+              <p>Phone number: +91 9954345473</p>
+              <p>E-mail: rajkumar912639@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2023 - Rajkumar Rajbhar</p>
+           <p class="w3-small">This website was made By the Rajkumar Rajbhar. Software D!</p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
+       <div  class="Aj">
+      <a href=" https://github.com/rajkumar912639"><img src="g2.png" alt="  "  style="width:30px;height:30px;"></a>
+      <a href="https://www.facebook.com/rajkumar.rajbhar.568089"><img src="f.png" alt="  "  style="width:30px;height:30px;"></a>
+      <a href="https://www.instagram.com/rajkumar.rajbhar.568089/"><img src="li.png" alt="  "  style="width:30px;height:30px;"></a>
+      <a href="https://www.linkedin.com/in/rajkumar-rajbhar-66ba93256/"><img src="l.png" alt="  "  style="width:30px;height:30px;"></a>
+      <a href="https://twitter.com/RajbharRaj53787"><img src="t.png" alt="  "  style="width:30px;height:30px;"></a>
+  
+      
+      
+  </div>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
